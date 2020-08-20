@@ -290,7 +290,7 @@
               instance.scene = instance.node.FlipBook(instance.options);
             });
             $('.books img').click(function(e) {
-              alert(e.target.id);
+             // alert(e.target.id);
               if(e.target.id) {
                 instance.options = booksOptions[e.target.id];
                 $('.fb3d-modal').fb3dModal('show');
